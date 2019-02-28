@@ -111,7 +111,8 @@ if __name__ == "__main__":
         use_modules = []
         if args.use_modules:
             use_modules = [module for sublist in args.use_modules for module in sublist]
-        evaluate(use_modules, args.expression)
+        result = evaluate(use_modules, args.expression)
+        print(result)
     except Exception as e:
         sys.exit("ERROR: " + str(e))
 
