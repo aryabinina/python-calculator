@@ -1,6 +1,6 @@
 """Module with operations for expression parsing."""
-from data.tokens import TokenType, create_token, create_mult_token, FunctionToken
-from parse import parser_utils as parser_utils
+from pycalc.data.tokens import TokenType, create_token, create_mult_token, FunctionToken
+from pycalc.parse import parser_utils as parser_utils
 
 
 class Parser:

@@ -1,6 +1,6 @@
 """Module with all supported tokens, their behavior and functions for their creation."""
 from enum import Enum
-from parse import parser_utils
+from pycalc.parse import parser_utils
 
 
 class TokenType(Enum):

@@ -1,7 +1,7 @@
 import unittest
 
-from data.tokens import *
-from parse.parser import *
+from pycalc.data.tokens import *
+from pycalc.parse.parser import *
 
 
 def get_42():

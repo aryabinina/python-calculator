@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pycalc-ariabinina",
-    version="0.0.3",
+    version="0.0.6",
     author="Aleksandra Riabinina",
     author_email="poor-fantazy@yandex.ru",
     packages=setuptools.find_packages(),
