@@ -1,5 +1,5 @@
 import unittest
-import pycalc
+import pycalc.pycalc as pycalc
 
 two = 2
 
